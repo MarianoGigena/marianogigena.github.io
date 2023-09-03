@@ -30,6 +30,12 @@ header div {
     min-width: 150px;
 
 }
+@media(max-width:600px){
+    header div{
+        display:block;
+        filter: grayscale(0%) contrast(200%);
+    }
+}
 header div:hover {
     /* background-color: aquamarine; */
     
