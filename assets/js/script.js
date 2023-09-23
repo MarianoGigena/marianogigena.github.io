@@ -130,3 +130,41 @@ function restaurarFondo7() {
 // Agrega los listeners de evento para el hover
 hoverDiv7.addEventListener('mouseenter', cambiarFondo7);
 hoverDiv7.addEventListener('mouseleave', restaurarFondo7);
+
+// Obtén una referencia a la div que deseas utilizar para cambiar el fondo
+const hoverDiv8 = document.querySelector('.github');
+
+// Define la función para cambiar el fondo
+function cambiarFondo8() {
+    // Cambia la imagen de fondo del body
+    document.getElementById("media").style.backgroundImage = 'url("/assets/media/github-logo.png")';
+}
+
+// Define la función para restaurar el fondo original
+function restaurarFondo8() {
+    // Restaura la imagen de fondo original
+    document.getElementById("media").style.backgroundImage = 'none';
+}
+
+// Agrega los listeners de evento para el hover
+hoverDiv8.addEventListener('mouseenter', cambiarFondo8);
+hoverDiv8.addEventListener('mouseleave', restaurarFondo8);
+
+// Obtén una referencia a la div que deseas utilizar para cambiar el fondo
+const hoverDiv9 = document.querySelector('.xampp');
+
+// Define la función para cambiar el fondo
+function cambiarFondo9() {
+    // Cambia la imagen de fondo del body
+    document.getElementById("media").style.backgroundImage = 'url("/assets/media/xampp2.png")';
+}
+
+// Define la función para restaurar el fondo original
+function restaurarFondo9() {
+    // Restaura la imagen de fondo original
+    document.getElementById("media").style.backgroundImage = 'none';
+}
+
+// Agrega los listeners de evento para el hover
+hoverDiv9.addEventListener('mouseenter', cambiarFondo9);
+hoverDiv9.addEventListener('mouseleave', restaurarFondo9);

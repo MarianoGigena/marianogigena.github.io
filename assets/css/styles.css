@@ -97,6 +97,20 @@ header div:hover {
     background-size:cover;
     background-image:url("/assets/media/cdc.png");
     padding: 5px;
+    }
+.github {
+        position: relative;
+        background-position: center;
+        background-size:cover;
+        background-image:url("/assets/media/GitHub-logo-2-imagen.jpg");
+        padding: 5px;
+}
+.xampp {
+    position: relative;
+    background-position: center;
+    background-size:cover;
+    background-image:url("/assets/media/xampp.png");
+    padding: 5px;
 }
 main {
     width: 80%;
